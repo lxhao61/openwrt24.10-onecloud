@@ -1,15 +1,11 @@
 # openwrt-onecloud-玩客云
 
 - 登录地址:
-  - 10.0.0.2
+  - 192.168.5.254
   - 密码:空
-
-- 系统内核:
-  - [✔] TCP 开启BBR
 
 - 刷机工具:
   - [下载](https://xd1314.lanzoul.com/iXHbz17bqjhc)
-
 
 - 相关引导:
 
