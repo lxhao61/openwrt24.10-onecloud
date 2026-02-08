@@ -10,18 +10,6 @@
 # Description: OpenWrt DIY script part 2 (rm Update feeds)
 #
 
-#!/bin/bash
-#
-# Copyright (c) 2019-2020 P3TERX <https://p3terx.com>
-#
-# This is free software, licensed under the MIT License.
-# See /LICENSE for more information.
-#
-# https://github.com/P3TERX/Actions-OpenWrt
-# File name: diy-op3.sh
-# Description: OpenWrt DIY script part 2 (rm Update feeds)
-#
-
 # ✅ 修复 crypto.mk（放在开头）
 cp package/kernel/linux/modules/crypto.mk package/kernel/linux/modules/crypto.mk.bak
 wget https://raw.githubusercontent.com/openwrt/openwrt/openwrt-23.05/package/kernel/linux/modules/crypto.mk \
