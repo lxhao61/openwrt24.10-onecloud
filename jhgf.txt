@@ -5,6 +5,7 @@ define KernelPackage/crypto-sha1
         CONFIG_CRYPTO_SHA1 \
         CONFIG_CRYPTO_SHA1_ARM \
         CONFIG_CRYPTO_SHA1_ARM_NEON \
+        CONFIG_CRYPTO_SHA1_ARM64_CE \
         CONFIG_CRYPTO_SHA1_OCTEON \
         CONFIG_CRYPTO_SHA1_PPC_SPE \
         CONFIG_CRYPTO_SHA1_SSSE3
@@ -23,7 +24,3 @@ define KernelPackage/crypto-sha1/arm-neon
   FILES+=$(LINUX_DIR)/arch/arm/crypto/sha1-arm-neon.ko
   AUTOLOAD+=$(call AutoLoad,09,sha1-arm-neon)
 endef
-
-KernelPackage/crypto-sha1/imx=$(KernelPackage/crypto-sha1/arm-neon)
-KernelPackage/crypto-sha1/ipq40xx=$(KernelPackage/crypto-sha1/arm-neon)
-KernelPackage/crypto-sha1/mvebu/cortexa9=$(KernelPackage/crypto-sha1/arm-neon)
