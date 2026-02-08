@@ -11,9 +11,9 @@
 #
 
 # ✅ 修复 crypto.mk（放在开头）
-cp package/kernel/linux/modules/crypto.mk package/kernel/linux/modules/crypto.mk.bak
-wget https://raw.githubusercontent.com/openwrt/openwrt/openwrt-23.05/package/kernel/linux/modules/crypto.mk \
-  -O package/kernel/linux/modules/crypto.mk
+#cp package/kernel/linux/modules/crypto.mk package/kernel/linux/modules/crypto.mk.bak
+#wget https://raw.githubusercontent.com/openwrt/openwrt/openwrt-23.05/package/kernel/linux/modules/crypto.mk \
+#  -O package/kernel/linux/modules/crypto.mk
 #echo '# CONFIG_CRYPTO_SHA1_ARM is not set' >> target/linux/amlogic/meson8b/config-5.15
 #echo '# CONFIG_CRYPTO_SHA1_ARM_NEON is not set' >> target/linux/amlogic/meson8b/config-5.15
 
