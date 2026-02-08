@@ -12,8 +12,8 @@
 
 # 查看所有标签
 #git tag
-# 切换到标签 v23.05.6
-git checkout v23.05.6
+# 切换到标签 v23.05.7
+git checkout v23.05.7
 
 # 回退源码
 #git reset --hard 1c26bcb #等同于切换到标签 v23.05.2
