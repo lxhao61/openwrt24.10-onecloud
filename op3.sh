@@ -88,5 +88,5 @@ merge_package openwrt-23.05 https://github.com/sbwml/luci-theme-argon.git packag
 # 提取 tailscale、luci-app-tailscale
 merge_package main https://github.com/kenzok8/small-package.git package/small-package tailscale luci-app-tailscale
 # 提取 luci-app-socat
-merge_package main https://github.com/Lienol/openwrt-package.git package/luci luci-app-socat
-#merge_package main https://github.com/chenmozhijin/luci-app-socat.git package/luci luci-app-socat
+#merge_package main https://github.com/Lienol/openwrt-package.git package/luci luci-app-socat
+merge_package main https://github.com/chenmozhijin/luci-app-socat.git package/luci luci-app-socat
